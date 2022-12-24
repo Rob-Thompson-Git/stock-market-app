@@ -27,7 +27,7 @@ export const mockSearchResults = {
           }
         ]
 }
-
+console.log(mockSearchResults.result);
 export const mockCompanyDetails = {
         "country": "US",
         "currency": "USD",
