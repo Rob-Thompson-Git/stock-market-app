@@ -7,32 +7,15 @@ export const mockSearchResults = {
             "symbol": "AAPL",
             "type": "Common Stock"
           },
-          {
-            "description": "APPLE INC",
-            "displaySymbol": "AAPL.SW",
-            "symbol": "AAPL.SW",
-            "type": "Common Stock"
-          },
-          {
-            "description": "APPLE INC",
-            "displaySymbol": "APC.BE",
-            "symbol": "APC.BE",
-            "type": "Common Stock"
-          },
-          {
-            "description": "APPLE INC",
-            "displaySymbol": "APC.DE",
-            "symbol": "APC.DE",
-            "type": "Common Stock"
-          }
         ]
 }
+
 console.log(mockSearchResults.result);
 export const mockCompanyDetails = {
         "country": "US",
         "currency": "USD",
         "exchange": "NASDAQ",
-        "ipo": "1980-12-12",
+        "ipo": "12/12/1980",
         "marketCapitalization": 1415993,
         "name": "Apple Inc",
         // "phone": "14089961010",
