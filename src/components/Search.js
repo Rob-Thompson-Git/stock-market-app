@@ -34,7 +34,7 @@ const Search = () => {
         />
 
         {input && (
-        <button onClick={clear}>
+        <button onClick={clear} className="m-2">
             <XIcon className="h-4 w-4 fill-gray-500"/>
         </button>
         )}
@@ -42,10 +42,10 @@ const Search = () => {
             <SearchIcon className="h-4 w-4 fill:gray-100"/>
         </button>
          {input && bestMatches.length > 0 ?
-            <SearchResults results={bestMatches} />
-          : null} 
+            <SearchResults results={bestMatches} /> 
+            : null} 
     </div> 
   )
 }
 
-export default Search
+export default Search;
